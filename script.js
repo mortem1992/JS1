@@ -1,10 +1,10 @@
 var userName = prompt('введите свое имя')
 var age = +prompt('введите свой возраст')
-var primery1 = +prompt('73+37=?')
-var primery2 = +prompt('73-37=?')
-var primery3 = +prompt('81*3=?')
-var primery4 = +prompt('49/7=?')
-var primery5 = +prompt('13%3=?')
+var primery1 = prompt('73+37=?')
+var primery2 = prompt('73-37=?')
+var primery3 = prompt('81*3=?')
+var primery4 = prompt('49/7=?')
+var primery5 = prompt('13%3=?')
 console.log(userName);
 console.log(age)
 console.log('73+37=' + (73+37) + ' (Ваш ответ ' + primery1 + ')');  
